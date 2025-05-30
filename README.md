@@ -9,4 +9,9 @@ step 3) run terraform plan
 
 step 4) run terraform apply and check localhost:8000 for nginx page
 
-step 5) run terraform destroy
+step 5) run terraform state list   and
+            terraform state show docker_container.nginx
+        
+step 6) run terraform destroy
+
+
